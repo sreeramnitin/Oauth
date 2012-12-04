@@ -4,8 +4,8 @@ from django.shortcuts import render_to_response,redirect
 import urllib2
 import urllib
 import json
-client_id="MgPENXXEuGu1lfDTx0U5lJUg7iHGZv3GuKTaoGeE1jiWG15d0j"
-client_secret="r7StDRUU6AU0AwVhiz3M6nsTP3mtpesUTFJYwkI8593TK1f4ES"
+client_id=""
+client_secret=""
 def index(request):
 	return render_to_response('index.html')
 def auth(request):
